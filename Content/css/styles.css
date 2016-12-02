@@ -1,3 +1,20 @@
 .centered {
   text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.container {
+  font-family: 'Exo 2', sans-serif;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.jumbotron h1 {
+  color: gold;
+}
+
+.jumbotron {
+  background-color: darkgray;
 }
