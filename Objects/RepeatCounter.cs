@@ -16,7 +16,12 @@ namespace WordCounter.Objects
 
     public int CountRepeats()
     {
-      return 0;
+      if(_searchWord == _searchString)
+      {
+        _wordCount += 1;
+        return _wordCount;
+      }
+      return _wordCount;
     }
   }
 }
