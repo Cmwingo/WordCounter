@@ -19,5 +19,12 @@ namespace WordCounter
       RepeatCounter testRepeatCounter = new RepeatCounter("A", "I");
       Assert.Equal(0, testRepeatCounter.CountRepeats());
     }
+
+    [Fact]
+    public void RepeatCounterTest_Count_True()
+    {
+      RepeatCounter testRepeatCounter = new RepeatCounter("A", "A A A");
+      Assert.Equal(3, testRepeatCounter.CountRepeats());
+    }
   }
 }
